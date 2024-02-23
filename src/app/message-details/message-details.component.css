@@ -1,0 +1,18 @@
+.message-card{
+    width: 100%;
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: #6d3434;
+    border-radius: 2px;
+}
+.message-header{
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 4px 4px;
+}
+.message-content{
+    padding: 10px;
+    border-radius: 3px;
+}

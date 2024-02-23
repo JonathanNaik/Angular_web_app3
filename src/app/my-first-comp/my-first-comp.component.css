@@ -1,0 +1,80 @@
+.form-container {
+    max-width: auto;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid rgb(20, 85, 85);
+    border-radius: 1px;
+    background-color: rgb(193, 221, 212);
+}
+h2{
+    text-align: center;
+    color: rgb(67, 82, 80);
+    
+}
+.form-group{
+    width: 100%;
+    margin-bottom: auto;
+}
+
+label {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    color: rgb(14, 230, 238);
+}
+input{
+    width: 100%;
+    margin: 5px;
+    padding: 0;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+textarea{
+    width: 100%;
+    margin: 5px;
+    padding: 0;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+button{
+    width: 100%;
+    margin-top: 20px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border-color: rgb(98, 142, 223);
+}
+#form-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#form-table td, #form-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#form-table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#form-table tr:hover {
+    background-color: #ddd;
+}
+#form-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+#form-table h3{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
