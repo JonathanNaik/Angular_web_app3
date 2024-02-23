@@ -12,7 +12,9 @@ constructor(private activatedRoute: ActivatedRoute){}
   ngOnInit(): void {
     console.log(this.activatedRoute);
     this.param = this.activatedRoute.snapshot.params['username'];
+    this.queryParam = this.activatedRoute.snapshot.queryParams['course'];
   }
 param: any;
+queryParam: any;
 
 }
